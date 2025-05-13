@@ -1,0 +1,32 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 8.55743073 seconds
+swap-block-right(block50, block51, block41, block59, block49, block42, block60, block52)
+spread-match-right(block50, block52, block43)
+remove-mark(block50, block51, block42, block52, block60)
+remove-mark(block52, block50, block43, block53, block61)
+match-blocks
+swap-block-right(block46, block47, block37, block55, block45, block38, block56, block48)
+swap-block-right(block46, block48, block38, block56, block47, block39, block57, block49)
+spread-match-right(block46, block49, block40)
+remove-mark(block49, block46, block40, block51, block58)
+remove-mark(block46, block48, block39, block49, block57)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 8.66358633 seconds
+swap-block-right(block50, block51, block41, block59, block49, block42, block60, block52)
+spread-match-right(block50, block52, block43)
+remove-mark(block50, block51, block42, block52, block60)
+remove-mark(block52, block50, block43, block53, block61)
+match-blocks
+swap-block-right(block46, block47, block37, block55, block45, block38, block56, block48)
+swap-block-right(block46, block48, block38, block56, block47, block39, block57, block49)
+spread-match-right(block46, block49, block40)
+remove-mark(block49, block46, block40, block51, block58)
+remove-mark(block46, block48, block39, block49, block57)
+match-blocks

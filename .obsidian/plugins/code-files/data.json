@@ -1,0 +1,20 @@
+{
+  "extensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "py",
+    "cpp",
+    "c",
+    "h",
+    "hpp"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "theme": "GitHub Dark",
+  "overwriteBg": true
+}

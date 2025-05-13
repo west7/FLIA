@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false
+}

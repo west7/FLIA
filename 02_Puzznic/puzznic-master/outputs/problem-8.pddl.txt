@@ -1,0 +1,94 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 10.744896354 seconds
+swap-block-right(block33, block34, block23, block43, block32, block24, block44, block35)
+spread-match-down(block33, block44, block24)
+remove-mark(block44, block43, block33, block45, block54)
+remove-mark(block33, block34, block24, block35, block44)
+match-blocks
+end-falling
+swap-block-right(block11, block12, block1, block21, block10, block2, block22, block13)
+spread-match-down(block11, block22, block2)
+remove-mark(block11, block12, block2, block13, block22)
+remove-mark(block22, block21, block11, block23, block32)
+match-blocks
+end-falling
+swap-block-right(block43, block44, block34, block53, block42, block33, block54, block45)
+spread-match-right(block43, block45, block35)
+remove-mark(block45, block43, block35, block46, block55)
+remove-mark(block43, block44, block33, block45, block54)
+match-blocks
+fall-block(block35, block45, block33, block36, block25, block43, block46, block55)
+end-falling
+swap-block-right(block21, block22, block12, block31, block20, block11, block32, block23)
+spread-match-down(block21, block32, block11)
+remove-mark(block21, block22, block11, block23, block32)
+remove-mark(block32, block31, block21, block34, block42)
+match-blocks
+swap-block-right(block17, block18, block7, block27, block16, block8, block28, block19)
+spread-match-down(block17, block28, block8)
+remove-mark(block17, block18, block8, block19, block28)
+remove-mark(block28, block27, block17, block29, block38)
+match-blocks
+end-falling
+swap-block-left(block26, block25, block16, block36, block27, block15, block45, block24)
+fall-block(block26, block45, block24, block25, block15, block33, block36, block35)
+end-falling
+spread-match-down(block26, block35, block45)
+remove-mark(block26, block33, block45, block36, block35)
+remove-mark(block35, block43, block26, block46, block55)
+match-blocks
+swap-block-left(block27, block25, block18, block37, block28, block16, block36, block45)
+spread-match-down(block27, block36, block16)
+remove-mark(block36, block26, block27, block37, block46)
+remove-mark(block27, block45, block16, block25, block36)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 10.771170914 seconds
+swap-block-right(block33, block34, block23, block43, block32, block24, block44, block35)
+spread-match-down(block33, block44, block24)
+remove-mark(block44, block43, block33, block45, block54)
+remove-mark(block33, block34, block24, block35, block44)
+match-blocks
+end-falling
+swap-block-right(block11, block12, block1, block21, block10, block2, block22, block13)
+spread-match-down(block11, block22, block2)
+remove-mark(block11, block12, block2, block13, block22)
+remove-mark(block22, block21, block11, block23, block32)
+match-blocks
+end-falling
+swap-block-right(block43, block44, block34, block53, block42, block33, block54, block45)
+spread-match-right(block43, block45, block35)
+remove-mark(block45, block43, block35, block46, block55)
+remove-mark(block43, block44, block33, block45, block54)
+match-blocks
+fall-block(block35, block45, block33, block36, block25, block43, block46, block55)
+end-falling
+swap-block-right(block21, block22, block12, block31, block20, block11, block32, block23)
+spread-match-down(block21, block32, block11)
+remove-mark(block21, block22, block11, block23, block32)
+remove-mark(block32, block31, block21, block34, block42)
+match-blocks
+swap-block-right(block17, block18, block7, block27, block16, block8, block28, block19)
+spread-match-down(block17, block28, block8)
+remove-mark(block17, block18, block8, block19, block28)
+remove-mark(block28, block27, block17, block29, block38)
+match-blocks
+end-falling
+swap-block-left(block26, block25, block16, block36, block27, block15, block45, block24)
+fall-block(block26, block45, block24, block25, block15, block33, block36, block35)
+end-falling
+spread-match-down(block26, block35, block45)
+remove-mark(block26, block33, block45, block36, block35)
+remove-mark(block35, block43, block26, block46, block55)
+match-blocks
+swap-block-left(block27, block25, block18, block37, block28, block16, block36, block45)
+spread-match-down(block27, block36, block16)
+remove-mark(block36, block26, block27, block37, block46)
+remove-mark(block27, block45, block16, block25, block36)
+match-blocks

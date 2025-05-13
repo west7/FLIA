@@ -1,0 +1,116 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 12.75342367 seconds
+swap-block-left(block36, block35, block28, block44, block37, block27, block43, block34)
+swap-block-left(block37, block35, block29, block45, block38, block28, block44, block36)
+spread-match-down(block37, block44, block28)
+remove-mark(block44, block43, block37, block45, block52)
+remove-mark(block37, block36, block28, block35, block44)
+match-blocks
+fall-block(block29, block35, block28, block30, block21, block37, block38, block45)
+end-falling
+swap-block-right(block43, block44, block36, block51, block42, block37, block52, block45)
+fall-block(block36, block44, block34, block37, block27, block42, block43, block51)
+end-falling
+spread-match-down(block36, block51, block44)
+remove-mark(block36, block42, block44, block43, block51)
+remove-mark(block51, block50, block36, block52, block59)
+match-blocks
+swap-block-left(block29, block37, block35, block45, block38, block28, block43, block44)
+spread-match-down(block29, block43, block28)
+remove-mark(block29, block44, block28, block37, block43)
+remove-mark(block43, block36, block29, block45, block52)
+match-blocks
+swap-block-left(block38, block37, block30, block46, block39, block35, block45, block29)
+spread-match-down(block38, block45, block35)
+remove-mark(block38, block29, block35, block37, block45)
+remove-mark(block45, block43, block38, block46, block53)
+match-blocks
+fall-block(block30, block37, block35, block31, block22, block38, block39, block46)
+fall-block(block22, block37, block21, block23, block14, block35, block31, block30)
+end-falling
+swap-block-left(block46, block45, block30, block54, block47, block38, block53, block43)
+spread-match-down(block46, block53, block38)
+remove-mark(block53, block52, block46, block54, block61)
+remove-mark(block46, block43, block38, block45, block53)
+match-blocks
+fall-block(block30, block45, block38, block39, block22, block46, block47, block54)
+fall-block(block22, block45, block35, block31, block37, block38, block39, block30)
+end-falling
+swap-block-left(block30, block46, block22, block54, block47, block38, block53, block43)
+fall-block(block22, block46, block38, block39, block45, block30, block47, block54)
+fall-block(block30, block53, block43, block22, block38, block52, block54, block61)
+end-falling
+spread-match-left(block30, block52, block43)
+remove-mark(block30, block52, block53, block54, block61)
+remove-mark(block52, block51, block43, block30, block60)
+match-blocks
+swap-block-left(block22, block53, block46, block54, block47, block38, block30, block43)
+fall-block(block22, block30, block43, block53, block38, block52, block54, block61)
+end-falling
+swap-block-right(block50, block51, block42, block58, block49, block36, block59, block52)
+swap-block-right(block50, block52, block36, block59, block51, block43, block60, block22)
+spread-match-right(block50, block22, block30)
+remove-mark(block50, block52, block43, block22, block60)
+remove-mark(block22, block50, block30, block54, block61)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 12.722892544 seconds
+swap-block-left(block36, block35, block28, block44, block37, block27, block43, block34)
+swap-block-left(block37, block35, block29, block45, block38, block28, block44, block36)
+spread-match-down(block37, block44, block28)
+remove-mark(block44, block43, block37, block45, block52)
+remove-mark(block37, block36, block28, block35, block44)
+match-blocks
+fall-block(block29, block35, block28, block30, block21, block37, block38, block45)
+end-falling
+swap-block-right(block43, block44, block36, block51, block42, block37, block52, block45)
+fall-block(block36, block44, block34, block37, block27, block42, block43, block51)
+end-falling
+spread-match-down(block36, block51, block44)
+remove-mark(block36, block42, block44, block43, block51)
+remove-mark(block51, block50, block36, block52, block59)
+match-blocks
+swap-block-left(block29, block37, block35, block45, block38, block28, block43, block44)
+spread-match-down(block29, block43, block28)
+remove-mark(block29, block44, block28, block37, block43)
+remove-mark(block43, block36, block29, block45, block52)
+match-blocks
+swap-block-left(block38, block37, block30, block46, block39, block35, block45, block29)
+spread-match-down(block38, block45, block35)
+remove-mark(block38, block29, block35, block37, block45)
+remove-mark(block45, block43, block38, block46, block53)
+match-blocks
+fall-block(block30, block37, block35, block31, block22, block38, block39, block46)
+fall-block(block22, block37, block21, block23, block14, block35, block31, block30)
+end-falling
+swap-block-left(block46, block45, block30, block54, block47, block38, block53, block43)
+spread-match-down(block46, block53, block38)
+remove-mark(block53, block52, block46, block54, block61)
+remove-mark(block46, block43, block38, block45, block53)
+match-blocks
+fall-block(block30, block45, block38, block39, block22, block46, block47, block54)
+fall-block(block22, block45, block35, block31, block37, block38, block39, block30)
+end-falling
+swap-block-left(block30, block46, block22, block54, block47, block38, block53, block43)
+fall-block(block22, block46, block38, block39, block45, block30, block47, block54)
+fall-block(block30, block53, block43, block22, block38, block52, block54, block61)
+end-falling
+spread-match-left(block30, block52, block43)
+remove-mark(block30, block52, block53, block54, block61)
+remove-mark(block52, block51, block43, block30, block60)
+match-blocks
+swap-block-left(block22, block53, block46, block54, block47, block38, block30, block43)
+fall-block(block22, block30, block43, block53, block38, block52, block54, block61)
+end-falling
+swap-block-right(block50, block51, block42, block58, block49, block36, block59, block52)
+swap-block-right(block50, block52, block36, block59, block51, block43, block60, block22)
+spread-match-right(block50, block22, block30)
+remove-mark(block50, block52, block43, block22, block60)
+remove-mark(block22, block50, block30, block54, block61)
+match-blocks

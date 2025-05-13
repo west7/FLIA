@@ -1,0 +1,23 @@
+/* Background color for code blocks */
+.cm-s-obsidian pre.HyperMD-codeblock {
+    color: #d4d4d4;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+/* Colors for syntax highlighting */
+.cm-keyword { color: #ff5555; }       /* Keywords - Rosa vibrante */
+.cm-string { color: #8886ff; }        /* Strings - Verde limão */
+.cm-number { color: #979796; }        /* Numbers - Amarelo brilhante */
+.cm-variable { color: #c0c0c0; }      /* Variables - Azul neon */
+.cm-operator { color: #3400f1; }      /* Operators - Roxo claro */
+.cm-comment { color: #6272a4; font-style: italic; } /* Comments - Azul acinzentado */
+.cm-def { color: #4c00ff; }           /* Function definitions - Laranja vibrante */
+.cm-type { color: #ff5555; }          /* Types - Vermelho forte */
+
+
+table thead  {
+    background-color: #3400f1;
+    border: 1px solid #fff;
+    /* Define a borda roxa ao redor de cada th */
+}

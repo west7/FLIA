@@ -1,0 +1,20 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 8.432058376 seconds
+swap-block-right(block26, block27, block21, block31, block25, block22, block32, block28)
+spread-match-right(block26, block28, block23)
+remove-mark(block28, block26, block23, block29, block33)
+remove-mark(block26, block27, block22, block28, block32)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 8.068607034 seconds
+swap-block-right(block26, block27, block21, block31, block25, block22, block32, block28)
+spread-match-right(block26, block28, block23)
+remove-mark(block28, block26, block23, block29, block33)
+remove-mark(block26, block27, block22, block28, block32)
+match-blocks

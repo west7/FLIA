@@ -1,0 +1,40 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 8.45775213 seconds
+swap-block-right(block23, block24, block16, block30, block22, block17, block31, block25)
+spread-match-right(block23, block25, block18)
+remove-mark(block25, block23, block18, block26, block32)
+remove-mark(block23, block24, block17, block25, block31)
+match-blocks
+fall-block(block16, block24, block15, block17, block9, block22, block23, block30)
+fall-block(block18, block25, block17, block19, block11, block23, block26, block32)
+end-falling
+spread-match-right(block18, block26, block19)
+remove-mark(block26, block18, block19, block27, block33)
+remove-mark(block18, block23, block25, block26, block32)
+spread-match-left(block16, block22, block15)
+remove-mark(block16, block22, block24, block23, block30)
+remove-mark(block22, block21, block15, block16, block29)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 8.686412478 seconds
+swap-block-right(block23, block24, block16, block30, block22, block17, block31, block25)
+spread-match-right(block23, block25, block18)
+remove-mark(block25, block23, block18, block26, block32)
+remove-mark(block23, block24, block17, block25, block31)
+match-blocks
+fall-block(block16, block24, block15, block17, block9, block22, block23, block30)
+fall-block(block18, block25, block17, block19, block11, block23, block26, block32)
+end-falling
+spread-match-right(block18, block26, block19)
+remove-mark(block26, block18, block19, block27, block33)
+remove-mark(block18, block23, block25, block26, block32)
+spread-match-left(block16, block22, block15)
+remove-mark(block16, block22, block24, block23, block30)
+remove-mark(block22, block21, block15, block16, block29)
+match-blocks

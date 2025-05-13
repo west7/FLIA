@@ -1,0 +1,40 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 8.996756903 seconds
+swap-block-right(block11, block12, block6, block16, block10, block7, block17, block13)
+fall-block(block11, block17, block12, block13, block7, block16, block18, block22)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block11, block22, block16, block18, block17, block21, block23, block27)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block11, block27, block21, block23, block22, block26, block28, block32)
+end-falling
+spread-match-right(block11, block28, block23)
+remove-mark(block28, block11, block23, block29, block33)
+spread-match-left(block11, block26, block21)
+remove-mark(block26, block25, block21, block11, block31)
+remove-mark(block11, block26, block27, block28, block32)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 8.894799305 seconds
+swap-block-right(block11, block12, block6, block16, block10, block7, block17, block13)
+fall-block(block11, block17, block12, block13, block7, block16, block18, block22)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block11, block22, block16, block18, block17, block21, block23, block27)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block11, block27, block21, block23, block22, block26, block28, block32)
+end-falling
+spread-match-right(block11, block28, block23)
+remove-mark(block28, block11, block23, block29, block33)
+spread-match-left(block11, block26, block21)
+remove-mark(block26, block25, block21, block11, block31)
+remove-mark(block11, block26, block27, block28, block32)
+match-blocks

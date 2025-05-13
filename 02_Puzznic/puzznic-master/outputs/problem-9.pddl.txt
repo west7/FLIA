@@ -1,0 +1,118 @@
+--- FORWARD PLANNER ---
+using FORWARD
+starting execution...
+solution found:
+time: 18.915110413 seconds
+swap-block-right(block36, block37, block26, block46, block35, block27, block47, block38)
+fall-block(block36, block47, block37, block38, block27, block46, block48, block57)
+end-falling
+spread-match-right(block36, block48, block38)
+remove-mark(block36, block46, block47, block48, block57)
+remove-mark(block48, block36, block38, block49, block58)
+match-blocks
+fall-block(block38, block48, block47, block39, block28, block36, block49, block58)
+end-falling
+swap-block-right(block46, block36, block37, block56, block45, block47, block57, block38)
+spread-match-right(block46, block38, block48)
+remove-mark(block38, block46, block48, block49, block58)
+remove-mark(block46, block36, block47, block38, block57)
+match-blocks
+swap-block-right(block22, block23, block12, block32, block21, block13, block33, block24)
+fall-block(block22, block33, block23, block24, block13, block32, block34, block43)
+fall-block(block12, block23, block11, block13, block2, block21, block33, block32)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block22, block43, block32, block34, block33, block42, block44, block53)
+end-falling
+spread-match-right(block22, block44, block34)
+remove-mark(block44, block22, block34, block45, block54)
+remove-mark(block22, block42, block43, block44, block53)
+match-blocks
+fall-block(block34, block44, block43, block35, block24, block22, block45, block54)
+fall-block(block24, block44, block33, block25, block14, block43, block35, block34)
+fall-block(block14, block44, block13, block15, block4, block33, block25, block24)
+end-falling
+swap-block-right(block32, block43, block12, block42, block31, block33, block22, block24)
+fall-block(block32, block22, block43, block24, block33, block42, block34, block53)
+fall-block(block12, block43, block21, block33, block23, block31, block22, block42)
+end-falling
+spread-match-right(block32, block34, block24)
+remove-mark(block34, block32, block24, block45, block54)
+remove-mark(block32, block42, block22, block34, block53)
+match-blocks
+fall-block(block24, block34, block22, block35, block14, block32, block45, block54)
+fall-block(block14, block34, block33, block25, block44, block22, block35, block24)
+end-falling
+swap-block-right(block12, block22, block43, block42, block31, block33, block32, block14)
+fall-block(block12, block32, block22, block14, block33, block42, block24, block53)
+end-falling
+spread-match-right(block12, block24, block14)
+remove-mark(block12, block42, block32, block24, block53)
+remove-mark(block24, block12, block14, block45, block54)
+match-blocks
+fall-block(block14, block24, block32, block35, block34, block12, block45, block54)
+end-falling
+swap-block-right(block42, block12, block22, block52, block41, block32, block53, block14)
+spread-match-right(block42, block14, block24)
+remove-mark(block42, block12, block32, block14, block53)
+remove-mark(block14, block42, block24, block45, block54)
+match-blocks
+--- ASTAR PLANNER ---
+using ASTAR
+starting execution...
+solution found:
+time: 19.419010067 seconds
+swap-block-right(block36, block37, block26, block46, block35, block27, block47, block38)
+fall-block(block36, block47, block37, block38, block27, block46, block48, block57)
+end-falling
+spread-match-right(block36, block48, block38)
+remove-mark(block36, block46, block47, block48, block57)
+remove-mark(block48, block36, block38, block49, block58)
+match-blocks
+fall-block(block38, block48, block47, block39, block28, block36, block49, block58)
+end-falling
+swap-block-right(block46, block36, block37, block56, block45, block47, block57, block38)
+spread-match-right(block46, block38, block48)
+remove-mark(block38, block46, block48, block49, block58)
+remove-mark(block46, block36, block47, block38, block57)
+match-blocks
+swap-block-right(block22, block23, block12, block32, block21, block13, block33, block24)
+fall-block(block22, block33, block23, block24, block13, block32, block34, block43)
+fall-block(block12, block23, block11, block13, block2, block21, block33, block32)
+activate-at-end-of-falling-cycle
+deactivate-at-end-of-falling-cycle
+fall-block(block22, block43, block32, block34, block33, block42, block44, block53)
+end-falling
+spread-match-right(block22, block44, block34)
+remove-mark(block44, block22, block34, block45, block54)
+remove-mark(block22, block42, block43, block44, block53)
+match-blocks
+fall-block(block34, block44, block43, block35, block24, block22, block45, block54)
+fall-block(block24, block44, block33, block25, block14, block43, block35, block34)
+fall-block(block14, block44, block13, block15, block4, block33, block25, block24)
+end-falling
+swap-block-right(block32, block43, block12, block42, block31, block33, block22, block24)
+fall-block(block32, block22, block43, block24, block33, block42, block34, block53)
+fall-block(block12, block43, block21, block33, block23, block31, block22, block42)
+end-falling
+spread-match-right(block32, block34, block24)
+remove-mark(block34, block32, block24, block45, block54)
+remove-mark(block32, block42, block22, block34, block53)
+match-blocks
+fall-block(block24, block34, block22, block35, block14, block32, block45, block54)
+fall-block(block14, block34, block33, block25, block44, block22, block35, block24)
+end-falling
+swap-block-right(block12, block22, block43, block42, block31, block33, block32, block14)
+fall-block(block12, block32, block22, block14, block33, block42, block24, block53)
+end-falling
+spread-match-right(block12, block24, block14)
+remove-mark(block12, block42, block32, block24, block53)
+remove-mark(block24, block12, block14, block45, block54)
+match-blocks
+fall-block(block14, block24, block32, block35, block34, block12, block45, block54)
+end-falling
+swap-block-right(block42, block12, block22, block52, block41, block32, block53, block14)
+spread-match-right(block42, block14, block24)
+remove-mark(block42, block12, block32, block14, block53)
+remove-mark(block14, block42, block24, block45, block54)
+match-blocks

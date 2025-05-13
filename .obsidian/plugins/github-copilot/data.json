@@ -1,0 +1,22 @@
+{
+  "nodePath": "/home/guilherme/.nvm/versions/node/v20.16.0/bin/node",
+  "enabled": true,
+  "hotkeys": {
+    "accept": "Tab",
+    "cancel": "Escape",
+    "request": "Ctrl-Shift-:",
+    "partial": "Ctrl-Shift->",
+    "next": "Ctrl-Shift-ArrowDown",
+    "disable": "Ctrl-Shift-E"
+  },
+  "suggestionDelay": 500,
+  "debug": false,
+  "onlyOnHotkey": false,
+  "onlyInCodeBlock": false,
+  "exclude": [],
+  "deviceSpecificSettings": [
+    "nodePath"
+  ],
+  "useDeviceSpecificSettings": false,
+  "proxy": ""
+}

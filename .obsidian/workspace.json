@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "877f3bfe95a92b14",
+    "type": "split",
+    "children": [
+      {
+        "id": "3363b0f6a52d94ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cb1dd8c08137f35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Notes_AIMA/ch01_introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ch01_introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39f9eb62926df805",
+    "type": "split",
+    "children": [
+      {
+        "id": "58cc288796c93b8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2af2a4765690833a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c89d64ec171a2168",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "48f4b6a6b1cde503",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37e406ebaab516c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfa19ffbe2613dee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bde070e2d6d39bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Graphs/Algorithms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Algorithms"
+            }
+          },
+          {
+            "id": "df373c538471e9e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Graphs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Graphs"
+            }
+          },
+          {
+            "id": "42fe0591c706c207",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d04bac0b0959830c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/revisão.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of revisão"
+            }
+          },
+          {
+            "id": "a035e6e74fd6cbf2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "code-files:Create Code File": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "9cb1dd8c08137f35",
+  "lastOpenFiles": [
+    "01_Notes_AIMA/ch01_introduction.md",
+    ".obsidian/snippets/font.css",
+    "Notas/01_fundamentos.md",
+    "Listas/lista_01.pdf",
+    "Listas/res01.md",
+    "Paradigmas/Fundamentos/teoria_dos_conjuntos/teoria_dos_conjuntos.pdf",
+    "Listas",
+    "Divide_and_Conquer/Implementation/karatsuba.cpp",
+    "Divide_and_Conquer/Algorithms.md",
+    "Greedy/Huffman.md",
+    "Graphs/Algorithms.md",
+    "Graphs/Structure.md",
+    "Excalidraw/clpp.md",
+    "Graphs/Implementation/main.cpp",
+    "Excalidraw/2clpp.md",
+    "Excalidraw/karatsuba.md",
+    "Excalidraw/counting-inversions.md",
+    "Graphs/Implementation/Graph.cpp",
+    "Greedy",
+    "Divide_and_Conquer/Implementation/karatsuba",
+    "Excalidraw/assets/clpp21.png",
+    "Excalidraw/assets/clpp20.png",
+    "Excalidraw/assets/clpp19.png",
+    "Excalidraw/assets/clpp18.png",
+    "Excalidraw/assets/clpp17.png",
+    "Excalidraw/assets/clpp16.png",
+    "Excalidraw/assets/clpp15.png",
+    "Excalidraw/assets/clpp14.png",
+    "Excalidraw/assets/clpp13.png",
+    "Excalidraw/assets/clpp12.png",
+    "Excalidraw/MoM.excalidraw.md",
+    "Excalidraw/Untitled.md",
+    "Divide_and_Conquer/Implementation/output/main",
+    "Excalidraw/mergesort.md",
+    "Excalidraw/revisão.md",
+    "Excalidraw/dfs.excalidraw.md",
+    "Implementation/Graph 1.hpp.md",
+    "Implementation/Graph.h.md",
+    "Excalidraw/reverse-algo.md",
+    "Excalidraw/graph-reverse.excalidraw.md",
+    "Excalidraw/graph-representation.excalidraw.md",
+    "Excalidraw/bfs.excalidraw.md",
+    "Excalidraw/graph-representation.excalidraw 1.md",
+    "Excalidraw/assets/Drawing 2024-11-09 23.39.26.excalidraw.md",
+    "Untitled.canvas",
+    "Teste.md"
+  ]
+}
